@@ -1,25 +1,26 @@
 # program Description 
 
-    To classify whether a given number is odd or even number
+    To Sort elements using insertion sort
 
 # Compilation Instructions
 ```bash
-gcc -o lab1 lab1.c 
+gcc -o lab2 lab2.c 
 ```
 
 # running instructions 
 
 ```bash
-    ./lab1
+    ./lab2
 ```
 
 # My Files
-## lab1.c
+## lab2.c
 
-This program classifies whether a given number is odd or even number.
-    1. It takes a integer as a input value
-    2. It then uses conditional statement to classify even or odd number and prints accordingly.
+This program sorts elements in ascending order using insertion sort.
+    1. It takes a integer as a input value for number of elements.
+    2. Now reads each element one by one.
+    3. After this using inplace insertion sort for sorting elements which are given as input.
+    4. Finally, prints the sorted elements in ascending order.
 
 # Output screenshots
 ![Alt text](image.png)
-![Alt text](image-1.png)

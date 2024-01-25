@@ -123,7 +123,7 @@ void arrayDetails(int variableElements[], int variableElementsSize) {
     }
 
     int loop_iterator = 0;
-    int lowestNumber = INT8_MAX, lowestIndex = 0, highestNumber = INT8_MIN, highestIndex = 0;
+    int lowestNumber = 2147483647, lowestIndex = 0, highestNumber = -2147483647, highestIndex = 0;
     float averageValue = 0;
 
     do {
